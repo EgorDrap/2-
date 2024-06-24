@@ -1,0 +1,20 @@
+my_dict = {'Egor': 89995490011, 'Max': 778197}
+print(my_dict)
+print(my_dict.get('Egor'))
+my_dict['Anton'] = 111333222
+print(my_dict.get('Anton'))
+my_dict.update({'Ann': 2211234,
+                'Emma': 212334})
+print(my_dict)
+abc = my_dict.pop('Egor')
+print(my_dict)
+print(abc)
+print(my_dict)
+
+my_set = {1, 1, 1, 2, 2, 3, 4, True, 'Устал тупить на элементарном'}
+print(my_set)
+my_set.add(33) # ВОПРОС К ПРОВЕРЯЮЩЕМУ
+my_set.add(99) # МЫ МОЖЕМ ДОБАВЛЯТЬ ТОЛЬКО ПО 1-му ЭЛЕМЕНТУ ВО МНОЖЕСТВО ЗА РАЗ?
+print(my_set)
+my_set.discard('Устал тупить на элементарном')
+print(my_set)
